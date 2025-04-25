@@ -25,7 +25,7 @@ document.addEventListener('click', function(event) {
   emoji.style.top = `${event.clientY + offsetY}px`;
   
   // 絵文字のスタイル
-  emoji.style.fontSize = '24px';
+  emoji.style.fontSize = '12px';
   emoji.style.transition = 'all 0.8s ease-out';
   emoji.style.opacity = '1';
   
