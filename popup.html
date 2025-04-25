@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            width: 240px;
+            padding: 15px;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+
+        h3 {
+            margin-top: 0;
+            color: #4CAF50;
+        }
+
+        .emoji {
+            font-size: 28px;
+            margin: 10px 0;
+        }
+
+        .count-container {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border-radius: 8px;
+            font-size: 20px;
+            font-weight: bold;
+            margin: 15px 0;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+        }
+
+        .reset-button {
+            background-color: #FFC107;
+            border: none;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .reset-button:hover {
+            background-color: #FFB300;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Click is Wealth</h3>
+    <div class="emoji">💵💰💵</div>
+    <p>ページの好きな場所をクリックすると、お金が舞い上がります！</p>
+
+    <div class="count-container">
+        <span id="clickCount">0兆円</span>
+    </div>
+
+    <button class="reset-button" id="resetButton">リセット</button>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>
