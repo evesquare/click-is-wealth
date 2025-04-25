@@ -3,7 +3,7 @@
   "name": "Click is Wealth",
   "version": "1.0",
   "description": "Shows 💵 emoji when clicking on the page",
-  "permissions": ["activeTab", "storage"],
+  "permissions": ["storage"],
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
